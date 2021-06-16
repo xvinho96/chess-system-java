@@ -11,7 +11,7 @@ public class ChessMatch {
 	
 	public ChessMatch() {
 		board = new Board(8, 8);
-		initialSetup();
+		initialSetup();	
 	}
 	
 	public ChessPiece[][] getPieces(){
